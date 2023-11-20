@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos DOM</title>
+    <style>
+        div#area{
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+            font-size: 18px;
+            font-weight: 500;
+            background-color: #2728FF;
+            color: #F6D248;
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+        }
+    </style>
+
+</head>
+<body>
+    <div id = 'area'>
+        Vamos clique.
+    </div>
+    <script>
+        var a = window.document.querySelector('div#area')
+
+        a.addEventListener('click', cliclar)
+        a.addEventListener('mouseenter', entrar)
+        a.addEventListener('mouseout', sair)
+
+        function cliclar(){
+            a.innerText = 'Você cliclou!'
+            a.style.background = '#F6D248'
+            a.style.color = '#2728FF'
+        }
+        function entrar(){
+            a.innerText = 'Basta clicar...'
+        }
+        function sair(){
+            a.innerText = 'Volte logo aqui.'
+            a.style.background = '#2728FF'
+            a.style.color = '#F6D248'
+        }
+    </script>
+    
+</body>
+</html>
