@@ -1,7 +1,7 @@
 function informarHorario(){
 
     var data = new Date()
-    var hora = 22 //data.getHours()
+    var hora = data.getHours()
 
     var txtHora = window.document.getElementById('txt')
     var imagem = window.document.getElementById('img')
