@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    background-color: #2728FF;
+    color: #ffffff;
+}
+header{
+    text-align: center;
+}
+section{
+    background-color: #ffffff;
+    color: #000000;
+    width: 500px;
+    margin: auto;
+    padding: 15px;
+    box-shadow: 3px 3px 7px #0000005d;
+    border-radius: 10px;
+}
+input{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+}
+#data_nasc{
+    width: 125px;
+}
+footer{
+    text-align: center;
+    font-style: italic;
+}
