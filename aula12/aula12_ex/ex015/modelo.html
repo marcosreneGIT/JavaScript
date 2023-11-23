@@ -12,18 +12,20 @@
     </header>
     <section>
         <div>
-            <p>Data de nascimento: <input type="date" name="data_nasc" id="data_nasc"></p>
+            <p>Ano de nascimento: <input type="number" name="data_nasc" id="data_nasc" min="1905" max="2020"></p>
             <p>Sexo: 
                 <input type="radio" name="sex" id="mas" checked> 
                 <label for="mas">Masculino</label>
                 <input type="radio" name="sex" id="fem">
                 <label for="fem">Feminino</label>
             </p>
-            <input type="button" value="Verificar">
+            <input type="button" value="Verificar" onclick="verificarIdade()">
         </div>
-        <div>
-            <p id="result">Preencha os dados acima para ver o resultado!</p>
-            <img src="" alt="foto-pessoa" id="pessoa">
+        <div id="result">
+            Preencha os dados acima para ver o resultado!
+        </div>
+        <div id ='img'>
+            <img src="" alt="" id="pessoa">
         </div>
     </section>
     <footer>
