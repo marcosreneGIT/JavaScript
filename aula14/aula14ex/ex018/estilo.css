@@ -18,6 +18,24 @@ section{
     box-shadow: 3px 3px 7px #0000005d;
     border-radius: 10px;
 }
+input{
+    width: 45px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+#btn{
+    background-color: #2727ffc2;
+    color: #ffffffc2;
+    width: 100px;
+    margin: 10px 0px;
+    padding: 5px;
+    border: none;
+    font-weight: bold;
+}
+#btn:hover{
+    background-color: #2727ff;
+    color: #ffffff;
+}
 footer{
     text-align: center;
     font-style: italic;
